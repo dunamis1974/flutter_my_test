@@ -11,8 +11,8 @@ class MyHomePage extends StatelessWidget {
         Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Image.network(
-              "https://hillelcoren.files.wordpress.com/2018/07/dartlang-card.png",
+            Image.asset(
+              'images/1609975.png',
               scale: 2.0,
             ),
             Text(
